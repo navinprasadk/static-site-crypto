@@ -18085,6 +18085,9 @@ a.pswp__share--download:hover {
   fill: currentColor;
   text-align: center;
 }
+.u-list-icon-none {
+  display: none !important;
+}
 .u-custom-list .u-list-icon > :first-child {
   display: inline-block;
   position: relative;
