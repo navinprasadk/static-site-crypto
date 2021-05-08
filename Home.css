@@ -1513,3 +1513,6 @@
     grid-template-columns: 100%;
   }
 }
+.u-list-icon-none{
+  display: none !important;
+}
