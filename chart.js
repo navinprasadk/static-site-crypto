@@ -63,14 +63,14 @@ var ctx = document.getElementById('chartdiv').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'doughnut',
     data: {
-        labels: [ 'Burnt', 'Pancakeswap liquidity pool', 'Development & Marketing Fund'],
+        labels: [ 'Burnt', 'Pancakeswap', 'Development'],
         datasets: [{
-          label: 'My First Dataset',
+          label: 'Tokenomics',
           data: [50, 46, 4],
           backgroundColor: [
             'rgb(241, 197, 14)',
-            'rgb(54, 162, 235)',
-            'rgb(26, 26, 26)'
+            'rgb(34, 28, 2)',
+            'rgb(248, 225, 134)'
           ],
           hoverOffset: 8
         }]
